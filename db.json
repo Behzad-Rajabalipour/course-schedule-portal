@@ -1,0 +1,202 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "James",
+      "family": "Smith",
+      "fieldOfStudy": "Software Engineering"
+    },
+    {
+      "id": 2,
+      "name": "Emma",
+      "family": "Johnson",
+      "fieldOfStudy": "Bachelor of Accounting"
+    },
+    {
+      "id": 3,
+      "name": "Benjamin",
+      "family": "Davis",
+      "fieldOfStudy": "Software Engineering"
+    },
+    {
+      "id": 4,
+      "name": "Olivia",
+      "family": "Brown",
+      "fieldOfStudy": "Mechanic"
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "name": "Operating System",
+      "numberOfUnits": 3,
+      "professorId": 2
+    },
+    {
+      "id": 2,
+      "name": "Programming",
+      "numberOfUnits": 4,
+      "professorId": 1
+    },
+    {
+      "id": 4,
+      "name": "Algorithm Design",
+      "numberOfUnits": 3,
+      "professorId": 1
+    },
+    {
+      "id": 5,
+      "name": "Finance",
+      "numberOfUnits": 3,
+      "professorId": 3
+    },
+    {
+      "name": "Accounting 2",
+      "numberOfUnits": "1",
+      "professorId": "1",
+      "id": 6
+    },
+    {
+      "name": "Accounting 1",
+      "numberOfUnits": "2",
+      "professorId": "4",
+      "id": 7
+    },
+    {
+      "name": "Data structure",
+      "numberOfUnits": "2",
+      "professorId": "5",
+      "id": 8
+    },
+    {
+      "name": "C++",
+      "numberOfUnits": "3",
+      "professorId": "4",
+      "id": 9
+    },
+    {
+      "name": "Algebra",
+      "numberOfUnits": "1",
+      "professorId": "2",
+      "id": 10
+    }
+  ],
+  "professors": [
+    {
+      "id": 1,
+      "personnelId": "4856",
+      "name": "William",
+      "family": "Wilson",
+      "course_list": [
+        "Algorithm Design",
+        "Programming",
+        "Accounting 2"
+      ]
+    },
+    {
+      "id": 2,
+      "personnelId": "7894",
+      "name": "Sophia",
+      "family": "Miller",
+      "course_list": [
+        "Operating System",
+        "Algebra",
+        "Algebra"
+      ]
+    },
+    {
+      "id": 3,
+      "personnelId": "6384",
+      "name": "Henry",
+      "family": "Jones",
+      "course_list": [
+        "Finance"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Ethan",
+      "personnelId": "6832",
+      "family": "Martinez",
+      "course_list": [
+        "Accounting 1",
+        "C++"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Mia",
+      "personnelId": "7846",
+      "family": "Anderson",
+      "course_list": [
+        "Data structure"
+      ]
+    }
+  ],
+  "selectunits": [
+    {
+      "id": "2",
+      "studentId": "1",
+      "courseId": 4,
+      "courseName": "Algorithm Design",
+      "numberOfUnits": 1,
+      "professorId": 1
+    },
+    {
+      "id": 3,
+      "studentId": "3",
+      "courseId": 4,
+      "courseName": "Algorithm Design",
+      "numberOfUnits": 3,
+      "professorId": 1
+    },
+    {
+      "id": 4,
+      "studentId": "3",
+      "courseId": 5,
+      "courseName": "Finance",
+      "numberOfUnits": 3,
+      "professorId": 3
+    },
+    {
+      "id": 5,
+      "studentId": "2",
+      "courseId": 1,
+      "courseName": "Operating System",
+      "numberOfUnits": "3",
+      "professorId": "2"
+    },
+    {
+      "studentId": "2",
+      "courseId": 4,
+      "courseName": "Algorithm Design",
+      "numberOfUnits": 3,
+      "professorId": 1,
+      "id": 9
+    },
+    {
+      "studentId": "4",
+      "courseId": 2,
+      "courseName": "Programming",
+      "numberOfUnits": 4,
+      "professorId": 1,
+      "id": 10
+    },
+    {
+      "studentId": "4",
+      "courseId": 4,
+      "courseName": "Algorithm Design",
+      "numberOfUnits": 3,
+      "professorId": 1,
+      "id": 11
+    },
+    {
+      "studentId": "4",
+      "courseId": 5,
+      "courseName": "Finance",
+      "numberOfUnits": 3,
+      "professorId": 3,
+      "id": 12
+    }
+  ]
+}

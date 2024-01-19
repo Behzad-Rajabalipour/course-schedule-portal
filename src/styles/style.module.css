@@ -1,0 +1,248 @@
+/* @font-face {
+    font-family: 'yekan';
+    src: url('fonts/Yekan.eot?#')format('eot'), url('fonts/Yekan.ttf')format('truetype'), url('fonts/Yekan.woff')format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'danstevis';
+    src: url('fonts/danstevis-webfont.eot?#')format('eot'), url('fonts/danstevis-webfont.ttf')format('truetype'), url('fonts/danstevis-webfont.woff')format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'koodak';
+    src: url('fonts/KoodakBold.eot?#')format('eot'), url('fonts/KoodakBold.ttf')format('truetype'), url('fonts/KoodakBold.woff')format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'nazanin';
+    src: url('fonts/Nazanin.eot?#')format('eot'), url('fonts/Nazanin.ttf')format('truetype'), url('fonts/Nazanin.woff')format('woff');
+    font-weight: normal;
+    font-style: normal;
+} */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'yekan';
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+    width: 1100px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav li {
+    list-style: none;
+    border: 1px solid #000;
+    border-radius: 3px;
+    padding: 3px 10px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+    width: 200px;
+    text-align: center;
+}
+
+.nav li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: 'yekan';
+}
+
+.box1 {
+    border: 1px solid #ccc;
+    width: 80%;
+    margin: 10px auto;
+    padding: 20px 10px;
+}
+
+.component-box {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.component-box h1 {
+    color: green;
+}
+
+.account-form {
+    width: 400px;
+}
+
+.forms-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.not-found-message {
+    color: red;
+    text-align: center;
+    font-family: 'koodak';
+}
+
+th {
+    background: #ebebeb;
+    font-weight: bolder;
+}
+
+.big-table {
+    width: 800px;
+    margin: 10px auto;
+}
+
+table {
+    width: 530px;
+}
+
+tr {
+    height: 30px;
+}
+
+td{
+    text-align: center;
+}
+
+.btn {
+    appearance: none;
+    -webkit-appearance: none;
+    font-family: 'yekan';
+    font-weight: bolder;
+    cursor: pointer;
+    padding: 7px;
+    margin: 2px;
+    min-width: 100px;
+    border: 0px;
+    border-radius: 3px;
+    -webkit-transition: background-color 100ms linear;
+    -ms-transition: background-color 100ms linear;
+    transition: background-color 100ms linear;
+}
+
+.btn:focus,
+.btn.focus {
+    outline: 0;
+}
+
+.btn-success {
+    background: #2ecc71;
+    color: #ffffff;
+}
+
+.btn-success:hover {
+    background: #27ae60;
+    color: #ffffff;
+}
+
+.btn-danger {
+    background: rgb(219, 1, 1);
+    color: #ffffff;
+}
+
+.btn-danger:hover {
+    background: #ba024f;
+    color: #ffffff;
+}
+
+.title1 {
+    text-align: center;
+    color: #02ad71;
+}
+
+.title2 {
+    text-align: center;
+    color: #02ad71;
+}
+
+.title3,
+.title4 {
+    font-weight: bolder;
+    color: #02ad71;
+}
+
+.title4 span {
+    background-color: #02ad71;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    padding: 10px;
+    margin: 10px auto;
+    width: 300px;
+}
+
+.form-control {
+    width: 300px;
+    margin: 5px 0;
+    padding: 2px;
+    height: 35px;
+}
+
+.form-control input,
+select {
+    height: 30px;
+    width: 300px;
+}
+
+.tag {
+    border: 1px solid #d5d3d3;
+    border-radius: 3px;
+    margin: 0 5px;
+    padding: 2px 15px;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #f7fffc;
+}
+
+.right-box,
+.left-box {
+    width: 600px;
+}
+
+.msg1 {
+    margin: 10px 0;
+    color: red;
+    font-size: 1.5rem;
+    height: 30px;
+}
+
+.box2 {
+    display: flex;
+    justify-content: space-around;
+    border: "1px solid #ccc";
+    margin: "10px 0px";
+    padding: "5px";
+}
+
+.divider-hr {
+    height: 5px;
+    width: 400px;
+    background-color: #5973bc;
+    border: 1px solid #5973bc;
+    margin: 40px auto;
+}

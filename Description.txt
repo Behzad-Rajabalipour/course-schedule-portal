@@ -1,0 +1,5 @@
+db.json, database ma hast
+server az noe json-server hast
+yek server json behemun mide. server roye port:3030 hast. react roye port:3000 hast 
+file command.sh ro negah kon, va nasb kon to cmd
+Diagram.jpeg ro negah kon
