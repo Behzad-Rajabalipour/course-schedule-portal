@@ -106,27 +106,7 @@ To run this project locally, you need to have the following installed:
   - Navigate to the "View Schedule" section to see all your courses listed with their details
 
 ## Project Structure
-
-\`\`\`
-course-schedule-portal/
-├── .dockerignore
-├── .gitignore
-├── .prettierignore
-├── .prettierrc.yaml
-├── README.md
-├── docker-compose.yml
-├── package-lock.json
-├── package.json
-├── .github/
-│   └── workflows/
-├── .husky/
-├── nginx/
-├── scripts/
-├── src/
-│   ├── client/
-│   └── server/
-└── ...
-\`\`\`
+![image](https://github.com/Behzad-Rajabalipour/course-schedule-portal/assets/115672803/cb90f878-ceb8-45f4-9e6a-46765e4fa383)
 
 ## Contributing
 
